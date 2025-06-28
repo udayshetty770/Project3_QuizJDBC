@@ -20,7 +20,7 @@ A simple **Java Quiz Application** that interacts with a MySQL database using **
 ---
 
 ## 📁 Project Structure
-
+`````
 Project3_QuizJDBC/
 │
 ├── ConnectionProvider.java # Establishes DB connection
@@ -29,7 +29,7 @@ Project3_QuizJDBC/
 ├── Question.java # Model class for questions
 ├── AdminPanel.java # Admin interface to manage quiz
 └── quiz.sql # SQL script to create and setup the DB
-
+`````
 ---
 
 ## 🧑‍💻 Getting Started
