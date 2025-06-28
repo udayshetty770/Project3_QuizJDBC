@@ -30,9 +30,6 @@ Project3_QuizJDBC/
 ├── AdminPanel.java # Admin interface to manage quiz
 └── quiz.sql # SQL script to create and setup the DB
 
-yaml
-Copy code
-
 ---
 
 ## 🧑‍💻 Getting Started
@@ -46,7 +43,7 @@ Copy code
 ### 🚀 Setup Instructions
 
 #### 1. Clone the repository
-```bash
+
 git clone https://github.com/udayshetty770/Project3_QuizJDBC.git
 cd Project3_QuizJDBC/Project3_QuizJDBC
 2. Set up the MySQL database
@@ -54,8 +51,6 @@ Open quiz.sql in MySQL Workbench or any client
 
 Run the script to create the database and table:
 
-sql
-Copy code
 CREATE DATABASE quiz;
 USE quiz;
 
@@ -73,21 +68,15 @@ Insert some sample questions manually or via your code.
 3. Update DB credentials
 Edit ConnectionProvider.java:
 
-java
-Copy code
 String url = "jdbc:mysql://localhost:3306/quiz";
 String user = "your_mysql_username";
 String password = "your_mysql_password";
 ▶️ Run the Application
 Compile all .java files:
 
-bash
-Copy code
 javac *.java
 Run the app:
 
-bash
-Copy code
 java LoginPage
 📧 Author
 Udaya Kumar Shetty
