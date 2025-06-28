@@ -54,6 +54,7 @@ Run the script to create the database and table:
 CREATE DATABASE quiz;
 USE quiz;
 
+````
 CREATE TABLE questions (
     id INT AUTO_INCREMENT PRIMARY KEY,
     question TEXT NOT NULL,
@@ -64,6 +65,7 @@ CREATE TABLE questions (
     correct_answer VARCHAR(255)
 );
 Insert some sample questions manually or via your code.
+`````
 
 3. Update DB credentials
 Edit ConnectionProvider.java:
