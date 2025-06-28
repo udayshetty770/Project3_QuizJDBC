@@ -70,16 +70,16 @@ Insert some sample questions manually or via your code.
 3. Update DB credentials
 Edit ConnectionProvider.java:
 
+````
 String url = "jdbc:mysql://localhost:3306/quiz";
 String user = "your_mysql_username";
 String password = "your_mysql_password";
 ▶️ Run the Application
 Compile all .java files:
-
-javac *.java
+`````
 Run the app:
 
-java LoginPage
+
 📧 Author
 Udaya Kumar Shetty
 📍 Bangalore, India
