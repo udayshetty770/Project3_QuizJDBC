@@ -43,9 +43,11 @@ Project3_QuizJDBC/
 ### 🚀 Setup Instructions
 
 #### 1. Clone the repository
-
+````
 git clone https://github.com/udayshetty770/Project3_QuizJDBC.git
 cd Project3_QuizJDBC/Project3_QuizJDBC
+````
+
 2. Set up the MySQL database
 Open quiz.sql in MySQL Workbench or any client
 
